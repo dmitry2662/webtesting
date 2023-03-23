@@ -14,4 +14,3 @@ class LoginFlow(BasicClass):
         input_password = element_password.get_element_passwd()
         if element_username is not None:
             input_password.send_keys("N1io11!!")
-            print("SSSSSSS")
